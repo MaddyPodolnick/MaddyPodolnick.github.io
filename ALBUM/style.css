@@ -1,0 +1,83 @@
+p {
+    color: blue;
+}
+h1 {
+/*    border: 2px red solid;*/
+}
+h1.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {text-decoration: none;}
+
+a:link {
+    color: green;
+}
+a:visited {
+    color: cyan;
+    
+}
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+    background-color: blue;
+}
+
+li {
+/*
+    list-style-type: none;
+    display:inline-block;
+*/
+    
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display:inline-block;
+/*    margin-right: 10%;*/
+/*    margin: 2% 2% 2% 2%;*/
+    margin: 2%;
+    
+}
+
+nav {
+    background-color:deeppink;
+}
+img {
+    width: 700px;
+}
+
+.block {
+    display: block;
+    
+}
+
+
+body {
+    
+    background-image: url(../img/solo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+@media all and (min-width: 320px) and (max-width: 780px)
+{
+    nav {
+        background-color: green;
+}
+}
+    @media all and (min-width: 781px) and (max-width: 1000px)
+    {
+      nav  
+        { background-color: black;
+        
+        } 
+        i {
+            color: red;
+            visibility: hidden;
+        }
+}
